@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Minoca</title>
+    <style>
+        body {
+            background: #BC4639;
+            color: #fff;
+            font-family: sans-serif;
+            font-size: 2em;
+            text-align: center;
+        }
+        canvas {
+            border: solid .1em #D4A59A;
+            margin:0 auto;
+        }
+        #container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+        #game {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="game">
+        <canvas id="arena" width="600" height="360" />
+    </div>
+</div>
+<script src="minoca.js"></script>
+</body>
+</html>
